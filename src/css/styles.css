@@ -32,7 +32,7 @@ img {
   height: 100vh;
   margin: 0 auto;
   padding: 92px 0 54px;
-  background-image: url(../img/bg-mobil\ x2.jpg);
+  background-image: url(../img/bg-mobil-x2.jpg);
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
@@ -111,5 +111,4 @@ img {
   border-radius: 50%;
   background-color: rgba(218, 218, 218, 0.7);
 }
-
-/*=====Tablet version=====*/
+box-shadow: 0 4px 20px 2px;
