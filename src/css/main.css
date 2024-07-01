@@ -84,7 +84,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  margin-bottom: 32px;
+  margin-bottom: 48px;
 }
 .link-item {
   margin: 0 auto;
