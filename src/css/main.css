@@ -47,13 +47,13 @@ img {
   background: #dc4405;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 .container {
   max-width: 320px;
   width: 100%;
-  padding: 0 20px;
+  padding: 0 16px;
   margin: 0 auto;
 }
 .logo {
@@ -62,7 +62,7 @@ img {
   max-width: 226px;
   border-radius: 71px;
   background-color: #fff;
-  margin-bottom: 14px;
+  margin-bottom: 16px;
 }
 .logo-img {
   max-width: 208px;
@@ -71,46 +71,49 @@ img {
 }
 .title-header {
   margin: 0 auto;
-  max-width: 245px;
+  max-width: 260px;
   font-family: 'MuseoSansCyrlBold';
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 900;
+  line-height: 1.5;
   color: #fff;
   text-align: center;
-  margin-bottom: 52px;
+  margin-bottom: 16px;
 }
 .links-list {
   display: flex;
   flex-direction: column;
-  gap: 18px;
-  margin-bottom: 80px;
+  gap: 24px;
+  margin-bottom: 16px;
 }
 .link-item {
   margin: 0 auto;
-  padding: 5px 0;
+  padding: 8px 0;
   width: 100%;
-  max-width: 216px;
+  max-width: 240px;
   border: 1px solid #000;
   border-radius: 20px;
   background-color: #fff;
   box-shadow: 0 4px 20px 2px rgba(0, 0, 0, 0.5);
 }
 .link {
-  display: block;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   color: #000;
 }
 .link-item:hover {
   background-color: #1f1e1e;
 }
-.link:hover {
+.link-item:hover .link {
   color: #fff;
 }
 .title-footer {
   font-family: 'MuseoSansCyrlBold';
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   color: #fff;
   text-align: center;
@@ -118,10 +121,10 @@ img {
 }
 .contacts {
   text-align: center;
-  margin: 0 auto 18px;
+  margin: 0 auto 16px;
 }
 .contacts-link {
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 900;
   color: #fff;
@@ -131,8 +134,10 @@ img {
 }
 .social-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  gap: 2px;
 }
 .social-item {
   width: 40px;
