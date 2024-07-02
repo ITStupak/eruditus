@@ -189,15 +189,58 @@ img {
 
 /*=====Tablet version=====*/
 @media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+  .logo {
+    padding: 16px;
+    max-width: 460px;
+    margin-bottom: 32px;
+  }
+  .logo-img {
+    max-width: 440px;
+  }
+  .title-header {
+    max-width: 460px;
+    font-size: 28px;
+    margin-bottom: 72px;
+  }
+  .links-list {
+    gap: 32px;
+    margin-bottom: 72px;
+  }
+  .link-item {
+    padding: 8px 0;
+    max-width: 380px;
+    border-radius: 50px;
+  }
+  .link {
+    font-size: 24px;
+  }
+  .title-footer {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+  .contacts {
+    margin: 0 auto 48px;
+  }
+  .contacts-link {
+    font-size: 26px;
+  }
+  .social-list {
+    padding: 0 122px;
+  }
+  .social-item {
+    width: 60px;
+    height: 60px;
+  }
+  .social-icon {
+    width: 32px;
+    height: 32px;
+  }
 }
 
 /*=====Desktop version=====*/
 @media screen and (min-width: 1158px) {
-}
-
-/*=====2x screens, retina=====*/
-@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
-}
-
-@media screen and (max-width: 767px) and (min-resolution: 192dpi) {
 }
