@@ -196,19 +196,18 @@ img {
   .logo {
     padding: 16px;
     max-width: 460px;
-    margin-bottom: 32px;
+    margin-bottom: 16px;
   }
   .logo-img {
     max-width: 440px;
   }
   .title-header {
     max-width: 460px;
-    font-size: 28px;
-    margin-bottom: 72px;
+    font-size: 24px;
+    margin-bottom: 24px;
   }
   .links-list {
-    gap: 32px;
-    margin-bottom: 72px;
+    margin-bottom: 24px;
   }
   .link-item {
     padding: 8px 0;
@@ -216,28 +215,28 @@ img {
     border-radius: 50px;
   }
   .link {
-    font-size: 24px;
+    font-size: 20px;
   }
   .title-footer {
-    font-size: 24px;
-    margin-bottom: 24px;
+    font-size: 20px;
+    margin-bottom: 16px;
   }
   .contacts {
-    margin: 0 auto 48px;
+    margin: 0 auto 24px;
   }
   .contacts-link {
-    font-size: 26px;
+    font-size: 22px;
   }
   .social-list {
     padding: 0 122px;
   }
   .social-item {
-    width: 60px;
-    height: 60px;
+    width: 48px;
+    height: 48px;
   }
   .social-icon {
-    width: 32px;
-    height: 32px;
+    width: 24px;
+    height: 24px;
   }
 }
 
