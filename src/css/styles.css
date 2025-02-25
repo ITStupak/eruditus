@@ -39,7 +39,7 @@ img {
 
 .wrapper {
   height: 100vh;
-  background: #dc4405;
+  background-color: #dc4405;
   display: flex;
   flex-direction: column;
   justify-content: center;
